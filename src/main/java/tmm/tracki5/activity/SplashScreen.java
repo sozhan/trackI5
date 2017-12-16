@@ -52,7 +52,7 @@ public class SplashScreen extends Activity {
                     }
 
                     // After 5 seconds redirect to another intent
-                    Intent i = new Intent(getBaseContext(), HomeActivity.class);
+                    Intent i = new Intent(getBaseContext(), LoginActivity.class);
                     startActivity(i);
 
                     //Remove activity
