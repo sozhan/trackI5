@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D50000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#FFDA4336</color>
+    <color name="themeColor">#1976D2</color>
+    <color name="paleColor">#60d6ca</color>
+    <color name="rcolorPrimary">#125688</color>
+    <color name="rcolorPrimaryDark">#125688</color>
+    <color name="rtextColorPrimary">#FFFFFF</color>
+    <color name="rwindowBackground">#FFFFFF</color>
+    <color name="rnavigationBarColor">#000000</color>
+    <color name="rcolorAccent">#c8e8ff</color>
+    <color name="GreenAverage">#006621</color>
+    <color name="transparent">#0fff</color>
+    <color name="white">#fff</color>
+    <color name="gray">#333</color>
+    <color name="gray_light">#dfdfdf</color>
+    <color name="TableBg">#8080ff</color>
+    <color name="light_grey">#CCCCCC</color>
+</resources>

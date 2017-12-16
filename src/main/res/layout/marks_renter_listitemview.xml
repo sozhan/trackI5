@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Single List Item Design -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/rollText"
+            android:layout_weight="0.50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:textAllCaps="false"
+            android:layout_alignParentLeft="true">
+        </TextView>
+
+            <EditText
+                android:id="@+id/input_mark_renter"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:singleLine="true"
+                android:inputType="number"
+                />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_weight="1.1"
+            android:textColor="#ffffff"
+            android:text="Edit"
+            android:id="@+id/marks_renter_edit"
+            android:layout_below="@id/Section"
+            android:background="@drawable/button_custom"
+            style="?android:attr/buttonStyleSmall"/>
+
+
+</LinearLayout>

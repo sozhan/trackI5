@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="1.7" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/.." />
+            <option value="$PROJECT_DIR$/../Home" />
+            <option value="$PROJECT_DIR$/../api23" />
+            <option value="$PROJECT_DIR$/../app" />
+            <option value="$PROJECT_DIR$/../appMy" />
+            <option value="$PROJECT_DIR$/../attenManual" />
+            <option value="$PROJECT_DIR$/../calendarView" />
+            <option value="$PROJECT_DIR$/../library" />
+            <option value="$PROJECT_DIR$/../libraryExpan" />
+            <option value="$PROJECT_DIR$/../mark" />
+            <option value="$PROJECT_DIR$/../markreport" />
+            <option value="$PROJECT_DIR$/../material" />
+            <option value="$PROJECT_DIR$/../my3" />
+            <option value="$PROJECT_DIR$/../myapp" />
+            <option value="$PROJECT_DIR$/../sample" />
+            <option value="$PROJECT_DIR$/../sampleExpandle" />
+            <option value="$PROJECT_DIR$/../sampleSpinner" />
+            <option value="$PROJECT_DIR$/../threeplate" />
+            <option value="$PROJECT_DIR$/../trackBu" />
+            <option value="$PROJECT_DIR$/../trackBus" />
+            <option value="$PROJECT_DIR$" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../BlueTooth.iml" filepath="$PROJECT_DIR$/../BlueTooth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../api23/api23.iml" filepath="$PROJECT_DIR$/../api23/api23.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../app/app.iml" filepath="$PROJECT_DIR$/../app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../appMy/appMy.iml" filepath="$PROJECT_DIR$/../appMy/appMy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../attenManual/attenManual.iml" filepath="$PROJECT_DIR$/../attenManual/attenManual.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../calendarView/calendarView.iml" filepath="$PROJECT_DIR$/../calendarView/calendarView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Home/home.iml" filepath="$PROJECT_DIR$/../Home/home.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../library/library.iml" filepath="$PROJECT_DIR$/../library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../libraryExpan/libraryExpan.iml" filepath="$PROJECT_DIR$/../libraryExpan/libraryExpan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mark/mark.iml" filepath="$PROJECT_DIR$/../mark/mark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../markreport/markreport.iml" filepath="$PROJECT_DIR$/../markreport/markreport.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../material/material.iml" filepath="$PROJECT_DIR$/../material/material.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../my3/my3.iml" filepath="$PROJECT_DIR$/../my3/my3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../myapp/myapp.iml" filepath="$PROJECT_DIR$/../myapp/myapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sample/sample.iml" filepath="$PROJECT_DIR$/../sample/sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sampleExpandle/sampleExpandle.iml" filepath="$PROJECT_DIR$/../sampleExpandle/sampleExpandle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sampleSpinner/sampleSpinner.iml" filepath="$PROJECT_DIR$/../sampleSpinner/sampleSpinner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../threeplate/threeplate.iml" filepath="$PROJECT_DIR$/../threeplate/threeplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../trackBu/trackBu.iml" filepath="$PROJECT_DIR$/../trackBu/trackBu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../trackBus/trackBus.iml" filepath="$PROJECT_DIR$/../trackBus/trackBus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tracki5.iml" filepath="$PROJECT_DIR$/tracki5.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="activity.MarksReport"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ECEFF1"
+        >
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/colorPrimary"
+                app:layout_scrollFlags="scroll|enterAlways"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        </android.support.design.widget.AppBarLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <fr.ganfra.materialspinner.MaterialSpinner
+                android:id="@+id/subject_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ms_multiline="false"
+                app:ms_hint="Select Subject"
+                app:ms_enableFloatingLabel="true"
+                app:ms_enableErrorLabel="true"
+                app:ms_floatingLabelText="Subjects"
+                app:ms_baseColor="@color/colorAccent"
+                app:ms_highlightColor="@color/colorAccent"
+                app:ms_errorColor="@color/colorPrimary"
+                app:ms_thickness="1dp"
+                app:ms_hintColor="@color/colorAccent"
+                app:ms_arrowColor="@color/colorAccent"
+                app:ms_arrowSize="16dp"
+                app:ms_alignLabels="false"
+                app:ms_floatingLabelColor="@color/colorAccent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:layout_margin="10dp"/>
+
+            <fr.ganfra.materialspinner.MaterialSpinner
+                android:id="@+id/class_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ms_multiline="false"
+                app:ms_hint="Select Class"
+                app:ms_enableFloatingLabel="true"
+                app:ms_enableErrorLabel="true"
+                app:ms_floatingLabelText="Class List"
+                app:ms_baseColor="@color/colorAccent"
+                app:ms_highlightColor="@color/colorAccent"
+                app:ms_errorColor="@color/colorPrimary"
+                app:ms_thickness="1dp"
+                app:ms_hintColor="@color/colorAccent"
+                app:ms_arrowColor="@color/colorAccent"
+                app:ms_arrowSize="16dp"
+                app:ms_alignLabels="false"
+                app:ms_floatingLabelColor="@color/colorAccent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:layout_margin="10dp"/>
+
+            <fr.ganfra.materialspinner.MaterialSpinner
+                android:id="@+id/section_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ms_hint="Select Section"
+                app:ms_enableFloatingLabel="true"
+                app:ms_enableErrorLabel="true"
+                app:ms_floatingLabelText="Section"
+                app:ms_baseColor="@color/colorAccent"
+                app:ms_highlightColor="@color/colorAccent"
+                app:ms_errorColor="@color/colorPrimary"
+                app:ms_thickness="1dp"
+                app:ms_hintColor="@color/colorAccent"
+                app:ms_arrowColor="@color/colorAccent"
+                app:ms_arrowSize="16dp"
+                app:ms_alignLabels="false"
+                app:ms_floatingLabelColor="@color/colorAccent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:layout_margin="10dp"/>
+
+            <fr.ganfra.materialspinner.MaterialSpinner
+                android:id="@+id/exam_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ms_multiline="false"
+                app:ms_hint="Select Exam"
+                app:ms_enableFloatingLabel="true"
+                app:ms_enableErrorLabel="true"
+                app:ms_floatingLabelText="Exams"
+                app:ms_baseColor="@color/colorAccent"
+                app:ms_highlightColor="@color/colorAccent"
+                app:ms_errorColor="@color/colorPrimary"
+                app:ms_thickness="1dp"
+                app:ms_hintColor="@color/colorAccent"
+                app:ms_arrowColor="@color/colorAccent"
+                app:ms_arrowSize="16dp"
+                app:ms_alignLabels="false"
+                app:ms_floatingLabelColor="@color/colorAccent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:layout_margin="10dp"/>
+
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#ffffff"
+            android:padding="10dp"
+            android:text="Get Mark List"
+            android:id="@+id/scan_marks"
+            android:layout_below="@id/Section"
+            android:layout_margin="@dimen/attendance_vertical_margin"
+            android:background="@drawable/button_custom"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/markList"
+                    android:layout_marginTop="@dimen/attendance_vertical_margin"
+                    />
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mark_reenter"
+                    android:layout_marginTop="@dimen/attendance_vertical_margin"
+                    />
+                <ProgressBar
+                    android:id="@+id/progressBar1"
+                    style="?android:attr/progressBarStyleLarge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/attendance_vertical_margin" />
+            </FrameLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:orientation="vertical">
+            <fr.ganfra.materialspinner.MaterialSpinner
+                android:id="@+id/sort_by"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ms_multiline="false"
+                app:ms_hint="Sort By"
+                app:ms_enableFloatingLabel="true"
+                app:ms_enableErrorLabel="true"
+                app:ms_floatingLabelText="Sort By"
+                app:ms_baseColor="@color/colorAccent"
+                app:ms_highlightColor="@color/colorAccent"
+                app:ms_errorColor="@color/colorPrimary"
+                app:ms_thickness="1dp"
+                app:ms_hintColor="@color/colorAccent"
+                app:ms_arrowColor="@color/colorAccent"
+                app:ms_arrowSize="12dp"
+                app:ms_alignLabels="true"
+                app:ms_floatingLabelColor="@color/colorAccent"
+                android:layout_margin="10dp" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:textColor="#ffffff"
+                    android:padding="10dp"
+                    android:text="Mark Submit"
+                    android:id="@+id/marks_renter_submit"
+                    android:layout_below="@id/Section"
+                    android:layout_margin="@dimen/attendance_vertical_margin"
+                    android:background="@drawable/button_custom"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

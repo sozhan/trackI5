@@ -1,0 +1,160 @@
+<resources>
+    <string name="app_name">Track i5</string>
+    <string name="atten_act">Attendance</string>
+    <string name="mark_act">MarkSheet</string>
+    <string name="mark_report">Marks Report</string>
+    <string name="academic_report">Academic Reports</string>
+    <string name="calender_act">Task | Schedule | Announcement</string>
+    <string name="report_act">Reports</string>
+    <string name="report_atten_super">Attendance - Super User</string>
+    <string name="report_atten_regular">Attendance - Regular</string>
+    <string name="report_atten_parentt">Attendance - Parent</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="lorem_ipsum_large">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed ultricies risus. Integer nisi orci, lacinia sit amet mi in, mollis scelerisque purus. Nunc risus ligula, maximus eu orci a, facilisis dictum velit. Proin nec laoreet magna. Nulla ut sagittis lorem. Morbi id enim fermentum, semper diam et, tempus leo. Aliquam vel congue orci. Suspendisse potenti. Curabitur finibus diam augue, vel bibendum sapien ultrices non.</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur magna tortor, semper eu feugiat eu, vehicula vitae lacus.</string>
+
+
+    <!-- Login details -->
+    <string name="hint_user_id">User ID</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="err_msg_name">Enter your full name</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="err_msg_phone">Enter valid phone number</string>
+    <string name="err_msg_password">Enter the password</string>
+
+    <!-- navigation item labels  -->
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_friends">Profile</string>
+    <string name="nav_item_notifications">StayFit</string>
+    <string name="nav_item_logout">Logout</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_friends</item>
+        <item>@string/nav_item_notifications</item>
+        <item>@string/nav_item_logout</item>
+    </string-array>
+
+    <string name="title_logout">Logout</string>
+    <string name="title_messages">StayFit</string>
+    <string name="title_friends">Profile</string>
+    <string name="title_home">Home</string>
+
+    <string name="Class_prompt">Class List</string>
+    <string name="Section_Prompt">Section</string>
+    <string-array name="Class_List">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="Section">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+    <string-array name="Roll">
+        <item>1101</item>
+        <item>1102</item>
+        <item>1103</item>
+        <item>1104</item>
+        <item>1105</item>
+        <item>1106</item>
+        <item>1107</item>
+        <item>1108</item>
+        <item>1109</item>
+        <item>1110</item>
+    </string-array>
+    <string-array name="Subject">
+        <item>Mathematics</item>
+        <item>English</item>
+        <item>Physics</item>
+        <item>Chemistry</item>
+        <item>Biology</item>
+    </string-array>
+
+    <string-array name="classname">
+        <item>class</item>
+        <item>Pre KG</item>
+        <item>LKG</item>
+        <item>UKG</item>
+        <item>I</item>
+        <item>II</item>
+        <item>III</item>
+        <item>IV</item>
+        <item>V</item>
+        <item>VI</item>
+        <item>VII</item>
+        <item>VIII</item>
+        <item>IX</item>
+        <item>X</item>
+        <item>XI</item>
+        <item>XII</item>
+        <item>All</item>
+    </string-array>
+    <string-array name="section">
+        <item>section</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+    <string-array name="exam_type">
+        <item>exam type</item>
+        <item>Term 1</item>
+        <item>Term 2 </item>
+        <item>Term 3</item>
+        <item>Term 4</item>
+        <item>Term 5</item>
+        <item>Term 6</item>
+        <item>Term 7</item>
+        <item>Term 8</item>
+        <item>Quartely Exam</item>
+        <item>Halfearly</item>
+        <item>Annual Exam</item>
+    </string-array>
+    <string-array name="Grade_system">
+        <item>Grade system</item>
+        <item>Grade</item>
+        <item>Marks</item>
+        <item>Percentage</item>
+    </string-array>
+    <string-array name="marks_list">
+        <item>marks</item>
+        <item>25</item>
+        <item>40</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+    </string-array>
+    <string-array name="SortType">
+        <item>High</item>
+        <item>Low</item>
+    </string-array>
+    <string-array name="reporttype">
+        <item>Report type</item>
+        <item>Overall</item>
+        <item>Select Subject</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

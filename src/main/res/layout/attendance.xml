@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="activity.Attendance">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ECEFF1">
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/colorPrimary"
+                app:layout_scrollFlags="scroll|enterAlways"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        </android.support.design.widget.AppBarLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <fr.ganfra.materialspinner.MaterialSpinner
+                android:id="@+id/Class_List"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ms_multiline="false"
+                app:ms_hint="Select Class"
+                app:ms_enableFloatingLabel="true"
+                app:ms_enableErrorLabel="true"
+                app:ms_floatingLabelText="Class List"
+                app:ms_baseColor="@color/colorAccent"
+                app:ms_highlightColor="@color/colorAccent"
+                app:ms_errorColor="@color/colorPrimary"
+                app:ms_thickness="1dp"
+                app:ms_hintColor="@color/colorAccent"
+                app:ms_arrowColor="@color/colorAccent"
+                app:ms_arrowSize="16dp"
+                app:ms_alignLabels="false"
+                app:ms_floatingLabelColor="@color/colorAccent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:layout_margin="10dp"/>
+            <fr.ganfra.materialspinner.MaterialSpinner
+                android:id="@+id/Section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ms_hint="Select Section"
+                app:ms_enableFloatingLabel="true"
+                app:ms_enableErrorLabel="true"
+                app:ms_floatingLabelText="Section"
+                app:ms_baseColor="@color/colorAccent"
+                app:ms_highlightColor="@color/colorAccent"
+                app:ms_errorColor="@color/colorPrimary"
+                app:ms_thickness="1dp"
+                app:ms_hintColor="@color/colorAccent"
+                app:ms_arrowColor="@color/colorAccent"
+                app:ms_arrowSize="16dp"
+                app:ms_alignLabels="false"
+                app:ms_floatingLabelColor="@color/colorAccent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:layout_margin="10dp"/>
+            <fr.ganfra.materialspinner.MaterialSpinner
+                android:id="@+id/Subject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ms_multiline="false"
+                app:ms_hint="Select Subject"
+                app:ms_enableFloatingLabel="true"
+                app:ms_enableErrorLabel="true"
+                app:ms_floatingLabelText="Subjects"
+                app:ms_baseColor="@color/colorAccent"
+                app:ms_highlightColor="@color/colorAccent"
+                app:ms_errorColor="@color/colorPrimary"
+                app:ms_thickness="1dp"
+                app:ms_hintColor="@color/colorAccent"
+                app:ms_arrowColor="@color/colorAccent"
+                app:ms_arrowSize="16dp"
+                app:ms_alignLabels="false"
+                app:ms_floatingLabelColor="@color/colorAccent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:layout_margin="10dp"/>
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#ffffff"
+            android:padding="10dp"
+            android:text="Get Students List"
+            android:onClick="CapAttendance"
+            android:id="@+id/ScanForAttendance"
+            android:layout_below="@id/Section"
+            android:layout_margin="@dimen/attendance_vertical_margin"
+            android:background="@drawable/button_custom"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/search_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/light_grey"
+                android:padding="8dp">
+                <EditText
+                    android:id="@+id/searchField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/search_text_design"
+                    android:drawableLeft="@drawable/ic_search"
+                    android:hint="Search" />
+            </LinearLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/AttendanceResultListView"
+                    android:layout_marginTop="@dimen/attendance_vertical_margin" />
+                <ProgressBar
+                    android:id="@+id/progressBar1"
+                    style="?android:attr/progressBarStyleLarge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/attendance_vertical_margin" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/float_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/ic_upload" />
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>
